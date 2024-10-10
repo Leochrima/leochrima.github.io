@@ -1,0 +1,103 @@
+header.masthead {
+    padding-top: calc(2.5rem + 72px);
+    padding-bottom: 2.5rem;
+    background: linear-gradient(4deg, rgb(240, 238, 238) 0%, #800101 100%);
+}
+
+header.masthead .masthead-content .masthead-heading {
+    font-size: 3rem;
+    font-weight: 100;
+}
+header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+@media (min-width: 992px) {
+    header.masthead {
+    padding-top: calc(5rem + 55px);
+    padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .construction-pc{
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+.construction-mob{
+        display: none;
+    }
+}
+
+body{
+    background-color: rgb(240, 238, 238);
+    background-image: url(assets/bg-img-opq.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.px-custom{
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+.pub-years {
+    color: #800101;
+}
+
+a.papertitle{
+    color: inherit;
+}
+
+a.papertitle:hover{
+    color: #800101;
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+ opacity: 0.7;
+}
+
+
+/* Custom Padding */
+.px-6 {
+  padding-right: 6rem !important;
+  padding-left: 6rem !important;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .px-md-6{
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .px-sm-6{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .px-xs-6{
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}
